@@ -1,4 +1,4 @@
-function share() {
+document.getElementById("shareButton").addEventListener("click", () => {
   if (navigator.canShare()) {
     navigator
       .share({
@@ -14,4 +14,4 @@ function share() {
     var popup = document.getElementById("copied");
     popup.classList.toggle("show");
   }
-}
+});
