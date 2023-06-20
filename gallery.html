@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/786289918417567827/1101240556497145866/rWrVtvWLNmzfVHH330lj0lp3pP8HV7lfQZVNTeMAAAAASUVORK5CYII.png" />
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Luke Ert - Gallery</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', monospace;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .gallery-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: -10px;
+            height: 300px;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scrollbar-color: rgb(0, 0, 0) rgb(255, 255, 255);
+        }
+
+        .gallery-item {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item-placeholder {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
+            background-color: gray;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: -10px;
+        }
+
+        .product-item {
+            width: calc(50% - 20px);
+            margin: 10px;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .product-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-item p {
+            margin-bottom: 20px;
+        }
+
+        .product-item button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .product-item button:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="home.html">Luke Ert</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li>│</li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li>│</li>
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/500x350" alt="Placeholder Image">
+                    <div class="gallery-item-title">Image Title</div>
+                    <div class="gallery-item-description">Image Description</div>
+                </div>
+            </section>
+        </main>
+                
+<footer>
+    &copy; 2023 Luke Ert
+</footer>
+</body>
+</html>
