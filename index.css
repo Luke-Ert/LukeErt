@@ -2,7 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Courier New", monospace;
-  background-image: url("https://cdn.discordapp.com/attachments/945725695617826856/1124462615532408852/image.png");
+  background-image: url("img/background.png");
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: 30%;
