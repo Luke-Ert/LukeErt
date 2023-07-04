@@ -147,6 +147,7 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 2
 }
 
 .sticky {
@@ -159,3 +160,13 @@ html{
   text-decoration: none;
   color: #ffffff;
 }
+
+.image:hover {
+  transform: scale(1.05);
+  transition: transform .1s;
+  -webkit-filter: brightness(20%);
+  }
+
+  .image:hover .download {
+    display: block;
+  }
