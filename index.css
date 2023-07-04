@@ -147,7 +147,7 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 2
+  z-index: 2;
 }
 
 .sticky {
@@ -159,6 +159,7 @@ html{
   margin: 0 10px;
   text-decoration: none;
   color: #ffffff;
+  z-index: 2;
 }
 
 .image:hover {
