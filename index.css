@@ -166,7 +166,7 @@ html{
 .image:hover {
   transform: scale(1.05);
   transition: transform .1s;
-  -webkit-filter: brightness(20%);
+  -webkit-filter: brightness(110%);
   }
 
   .image:hover .download {
